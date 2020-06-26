@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  transform: translateY(-50px);
+  animation: animate 2s forwards ease-in;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.69, 0.18, 1, 1);
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  animation-name: animate;
+}
+
+.container {
+  max-width: 1376px;
+  height: 786px;
+  cursor: pointer;
+  position: relative;
+  margin: 0px auto;
+}
+
+.sixty {
+  width: 115px;
+  height: 48px;
+  left: 60px;
+  top: 15px;
+  font-family: 'Gruppo', cursive;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 35px;
+  color: #000;
+  position: absolute;
+}
+
+.sixty a {
+  color: #000;
+}
+
+.sixty a:hover {
+  color: #333;
+}
+
+.ellipse {
+  width: 12px;
+  height: 12px;
+  left: 102px;
+  top: 19px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.login-btn {
+  width: 35px;
+  height: 23px;
+  top: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 161.3%;
+  position: absolute;
+  left: 21px;
+  color: #fff;
+}
+
+.signUp-btn {
+  width: 58px;
+  height: 23px;
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 161.3%;
+}
+
+#login {
+  position: absolute;
+  width: 83px;
+  height: 44px;
+  left: 1000px;
+  top: 14px;
+  background-color: #507EF5;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 0px 0px 30px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+#sign {
+  position: absolute;
+  width: 96px;
+  height: 44px;
+  left: 1082px;
+  top: 14px;
+  background-color: #356DFB;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 30px 30px 0px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+#sign:hover,
+#login:hover,
+#get-started-btn:hover {
+  background-color: rgba(0, 0, 173, 0.753);
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.first-section-text {
+  position: absolute;
+  width: 538px;
+  height: 325px;
+  left: 60px;
+  top: 107px;
+  font-weight: 600;
+  font-size: 48px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 65px;
+}
+
+.first-cards-box {
+  background-image: url('../images/Component\ 12.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 237px;
+  height: 195px;
+  left: 809px;
+  top: 115px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.first-cards {
+  position: absolute;
+  width: 237px;
+  height: 259px;
+  left: 30px;
+  top: 25px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.second-cards {
+  position: absolute;
+  width: 237px;
+  height: 259px;
+  left: 30px;
+  top: 25px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.third-cards {
+  position: absolute;
+  width: 237px;
+  height: 259px;
+  left: 30px;
+  top: -140px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.img-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 19px;
+  color: #444444;
+  margin-top: 14px;
+}
+
+.second-section-box {
+  background-image: url('../images/Component\ 12.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 237px;
+  height: 195px;
+  left: 660px;
+  top: 450px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.third-section-box {
+  background-image: url('../images/Component\ 12.png');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 237px;
+  height: 195px;
+  left: 970px;
+  top: 615px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.lists1,
+.lists2,
+.lists3 {
+  position: absolute;
+  width: 16px;
+  height: 14px;
+  left: -32px;
+  top: 4px;
+}
+
+#list1 {
+  position: absolute;
+  width: 187px;
+  height: 22px;
+  left: 97px;
+  top: 473px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#list2 {
+  position: absolute;
+  width: 446px;
+  height: 22px;
+  left: 97px;
+  top: 505px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#list3 {
+  position: absolute;
+  width: 258px;
+  height: 22px;
+  left: 97px;
+  top: 536px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#get-started-btn {
+  position: absolute;
+  width: 177px;
+  height: 52px;
+  left: 60px;
+  top: 615px;
+  background: #356DFB;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+}
+
+a #get-started-btn {
+  text-decoration: none;
+  color: #E1E1EC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer {
+  position: absolute;
+  width: 208px;
+  height: 15px;
+  left: 631px;
+  top: 780px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes animate {
+  to {
+    transform: translateY(0);
+  }
+}
+
+/********************* Media Querries *********************/
+
+@media screen and (max-width: 900px) {
+  .first-section-text {
+    color: #f1f1f1;
+  }
+
+  .first-cards-box {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .second-section-box {
+    left: 600px;
+    top: 450px;
+  }
+
+  .third-section-box {
+    left: 900px;
+    top: 615px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #login {
+    left: 750px;
+    top: 14px;
+  }
+
+  #sign {
+    left: 820px;
+    top: 14px;
+  }
+
+  .second-section-box {
+    left: 97px;
+    top: 580px;
+  }
+
+  .third-section-box {
+    left: 597px;
+    top: 760px;
+  }
+
+  #get-started-btn {
+    left: 60px;
+    top: 915px;
+  }
+
+  footer {
+    left: 480px;
+    top: 1050px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  footer {
+    width: 208px;
+    height: 15px;
+    left: 380px;
+    top: 1050px;
+    padding-bottom: 50px;
+  }
+}
+

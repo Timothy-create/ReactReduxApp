@@ -1,0 +1,297 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.modal-second {
+  width: 339px;
+  height: 225px;
+  background: white;
+  position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  top: 10rem;
+  left: 35%;
+  opacity: 2;
+  z-index: 999;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.edit-modal {
+  width: 454px;
+  height: 572px;
+  background: white;
+  position: absolute;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  top: 3rem;
+  left: 35%;
+  opacity: 2;
+  z-index: 2;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+.edit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.edit {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000;
+}
+
+.edit-close-btn {
+  border: none;
+  outline: none;
+  color: #777777;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.edit-close-btn:hover {
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
+.close-btn {
+  float: right;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.close-btn:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.warning {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 161.3%;
+  color: #444444;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.cancel-btn {
+  width: 110px;
+  height: 41px;
+  outline: none;
+  background-color: #fff;
+  color: rgba(119, 119, 119, 0.81);
+  border: 1.2px solid #C4C4C4;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 30px;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.delete-btn {
+  width: 110px;
+  height: 41px;
+  outline: none;
+  background-color: rgba(241, 56, 67, 0.2);
+  color: #F13843;
+  border: 1.2px solid #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 30px;
+  margin-top: 2rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.edit-btn-box {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.edit-edit-btn, .create-btn {
+  border: none;
+  outline: none;
+  background-color: #356DFB;
+  color: #fff;
+  width: 141px;
+  height: 48px;
+  border-radius: 30px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+
+.edit-edit-btn:hover, .edit-cancel-btn:hover, .create-btn:hover {
+  background-color: rgba(0, 0, 173, 0.753);
+  color: #fff;
+  cursor: pointer;
+}
+
+.delete-btn:hover, .cancel-btn:hover {
+  background-color: rgb(221, 46, 46);
+  color: #fff;
+  cursor: pointer;
+}
+
+.edit-cancel-btn {
+  border: 1px solid #DDDDDD;
+  outline: none;
+  color: rgba(119, 119, 119, 0.69);
+  width: 141px;
+  height: 48px;
+  border-radius: 30px;
+  margin-top: 25px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  margin-left: 20px;
+}
+
+h5 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.title-box {
+  margin-top: 20px;
+}
+
+.title-box input, .tag input {
+  width: 100%;
+  background: rgba(196, 196, 196, 0.05);
+  border: 1px solid #DEDFEC;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 14px;
+  padding: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+  color: #777777;
+}
+
+.tag-box {
+  display: flex;
+  background: rgba(196, 196, 196, 0.05);
+  border: 1px solid #DEDFEC;
+  padding: 7px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.edit-personal {
+  background-color: rgba(53, 109, 251, 0.1);
+  margin: 0 3px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #606C8A;
+}
+
+.close-x {
+  color: #356DFB;
+  margin-left: 10px;
+}
+
+.note-box {
+  width: 100%;
+  height: 200px;
+  outline: none;
+  padding: 8px;
+  font-size: 13px;
+  font-family: 'Lato' sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 161.3%;
+  background: rgba(196, 196, 196, 0.05);
+  color: #777777;
+  border: 1px solid #DEDFEC;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+/************************** Media Queries *******************************/
+
+@media screen and (max-width:700px) {
+  .edit-modal {
+    width: 380px;
+    left: 20%;
+  }
+  .modal-second {
+    width: 320px;
+    left: 20%;
+  }
+}
+
+@media screen and (max-width:490px) {
+  .edit-modal {
+    width: 350px;
+    left: 12%;
+  }
+  .modal-second {
+    width: 320px;
+    left: 18%;
+  }
+}
